@@ -46,7 +46,7 @@ body {
     width: 226px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
@@ -54,7 +54,10 @@ body {
 }
 
 .containerSecundario {
+    display: flex;
+    flex-direction: column;
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .tituloSecundario {
@@ -78,6 +81,7 @@ body {
     width: 414px;
     display: flex;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .caixinhaPedidos {
@@ -134,9 +138,9 @@ body {
     left: 0;
     bottom: 0;
     margin-left: 770px;
+    margin-top: 92px;
     width: 414px;
     height: 92px;
-    margin-top: 92px;
 }
 
 .menuInferiorCaixaTexto {
