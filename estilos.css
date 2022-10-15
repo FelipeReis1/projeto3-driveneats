@@ -1,0 +1,161 @@
+body {
+    font-family: "Righteous", "Roboto", sans-serif;
+}
+
+.containerPrincipal {
+    width: 414px;
+    height: 1026px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+.menuSuperior {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: flex-start;
+    left: 0;
+    top: 0;
+    margin-left: 753px;
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+
+.tituloPrincipal {
+    height: 44px;
+    width: 248px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.subtituloPrincipal {
+    height: 17px;
+    width: 226px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 25px;
+}
+
+.containerSecundario {
+    margin-top: 120px;
+}
+
+.tituloSecundario {
+    width: 320px;
+    height: 25px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.tituloSecundarioPedidos {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+}
+
+.pedidos {
+    width: 414px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.caixinhaPedidos {
+    width: 172px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.caixinhaPedidos img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.tituloPedidos {
+    width: 139px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin-top: 5px;
+}
+
+.subtituloPedidos {
+    width: 147px;
+    height: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+}
+
+.precoPedidos {
+    width: 66px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.menuInferior {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 770px;
+    width: 414px;
+    height: 92px;
+    margin-top: 92px;
+}
+
+.menuInferiorCaixaTexto {
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoMenuInferior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
