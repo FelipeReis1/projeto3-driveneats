@@ -17,9 +17,8 @@ body {
     flex-direction: column;
     position: fixed;
     align-items: flex-start;
-    left: 0;
-    top: 0;
-    margin-left: 753px;
+    left: auto;
+    top: 0; 
     width: 414px;
     height: 92px;
     background-color: #CF2B2B;
@@ -135,9 +134,9 @@ body {
 .menuInferior {
     display: flex;
     position: fixed;
-    left: 0;
+    justify-content: center;
+    left: auto;
     bottom: 0;
-    margin-left: 770px;
     margin-top: 92px;
     width: 414px;
     height: 92px;
