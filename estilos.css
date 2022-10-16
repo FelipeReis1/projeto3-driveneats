@@ -145,7 +145,10 @@ body {
     line-height: 19px;
     color: #000000;
 }
-
+.icone{
+    margin-left: 130px;
+    color: #32B72F;
+}
 .menuInferior {
     display: flex;
     position: fixed;
@@ -210,6 +213,7 @@ body {
     text-align: center;
     letter-spacing: 0.018em;
     color: #FFFFFF;
+    cursor:pointer;
 }
 
 .selecionado {
