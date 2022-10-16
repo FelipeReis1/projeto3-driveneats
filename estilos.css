@@ -82,18 +82,21 @@ body {
     overflow-x: scroll;
     overflow-y: hidden;
 }
+
 .pedidosDois {
     width: 414px;
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
 }
+
 .pedidosTres {
     width: 414px;
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
 }
+
 .caixinhaPedidos {
     width: 172px;
     height: 216px;
@@ -175,6 +178,40 @@ body {
     color: #FFFFFF;
 }
 
+.menuInferiorVerde {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    left: auto;
+    bottom: 0;
+    margin-top: 92px;
+    width: 414px;
+    height: 92px;
+}
+
+.menuInferiorVerdeCaixaTexto {
+    width: 364px;
+    height: 61px;
+    background-color: #32B72F;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoMenuInferiorVerde {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+
 .selecionado {
     width: 172px;
     height: 180px;
@@ -182,3 +219,6 @@ body {
     border-radius: 9px;
 }
 
+.escondido {
+    display: none;
+}
