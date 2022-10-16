@@ -82,7 +82,18 @@ body {
     overflow-x: scroll;
     overflow-y: hidden;
 }
-
+.pedidosDois {
+    width: 414px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.pedidosTres {
+    width: 414px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
 .caixinhaPedidos {
     width: 172px;
     height: 216px;
